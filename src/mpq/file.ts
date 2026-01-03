@@ -484,4 +484,8 @@ export default class MpqFile {
 
     return true;
   }
+
+  get stringValue(): string {
+    return this.text();
+  }
 }
